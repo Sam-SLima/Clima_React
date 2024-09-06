@@ -1,0 +1,41 @@
+.bloco-clima {
+    background: #ffffff85;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    margin: 20px 0;
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+}
+
+.lista-clima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.Clima-item {
+    text-align: center;
+    background: #ffffffde;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media  screen and (max-width: 500px) {
+
+    .Clima-item {
+        width: 100%;
+    }
+}
+
+.dia-previsao {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+

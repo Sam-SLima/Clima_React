@@ -1,0 +1,37 @@
+.bloco-clima {
+    background: #ffffff85;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.clima-info {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.clima-info img {
+    width: 70px;
+}
+
+.temperatura {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.descricao {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.detalhes {
+    display: flex;
+    justify-content: space-evenly;
+}
